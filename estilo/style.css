@@ -186,6 +186,7 @@ img {
     z-index: 1;
     width: 99.99%;
     margin: auto;
+    text-align: center;    
 }
 
 #cookies > p {
@@ -857,6 +858,16 @@ main > div.encontre-seu-estilo > h2 {
 }
 
 @media(max-width:456px) {
+    #cookies {
+        width: 99.5%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #cookies > p{
+        text-align: center;
+    }
+    
     .hh-coluna1 {
         margin-left: auto;
         margin-right: auto;
