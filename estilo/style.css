@@ -169,8 +169,8 @@ img {
 
 #voltar-ao-topo {
     position: fixed;
-    right: .7rem;
-    bottom: .5rem;
+    right: 3rem;
+    bottom: 3rem;
 }
 
 #voltar-ao-topo:hover {
