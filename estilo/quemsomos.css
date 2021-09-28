@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Josefin';
+    src: url(../fontes/static-josefin/JosefinSans-Regular.ttf) format('truetype'), url(../fontes/static-josefin/JosefinSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(../fontes/static-heebo/Heebo-Regular.ttf) format('truetype'), url(../fontes/static-heebo/Heebo-SemiBold.ttf) format('truetype');
+}
+
+:root {
+    --cor_azul_escuro: #0F1757;
+}
+
+#quem-somos {
+    padding: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#quem-somos > #quemsomos-texto > h1 {
+    font-family: 'Josefin';
+    color: var(--cor_azul_escuro);
+    font-size: 3.3rem;
+}
+
+#quemsomos-img img {
+    border-radius: 3rem;
+}
+
+.img-maxsuel {
+    margin-top: 14.5rem;
+}
+
+.img-maxsuel-laakes:hover {
+    cursor: pointer;
+    filter: invert(15%);
+    transition: .6s;
+}
+
+.img-maxsuel-quadrado {
+    display: none;
+}
+
+#quemsomos-texto, #quemsomos-img {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.legenda-laakes {
+    text-align: center;
+    font-family: 'Josefin';
+    font-size: 1.3rem;
+}
+
+#quem-somos > #quemsomos-texto h1, p {
+    font-family: 'Heebo';
+    line-height: 3.33rem;
+    text-transform: none;
+}
+
+#quem-somos > #quemsomos-texto h1 {
+    font-size: 3.3rem;
+    font-family: 'Josefin';
+}
+
+#quem-somos > #quemsomos-texto p {
+    font-size: 1.6rem;
+}
+
+/* Responsividade de quem somos */
+
+@media(max-width:1195px) {
+    #quem-somos {
+        padding: 7rem;
+    }
+
+    #quemsomos-img {
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width:1195px) {
+    #quem-somos {
+        padding: 5rem;
+    }
+
+    #quem-somos > #quemsomos-texto h1, p {
+        line-height: 2.8rem;
+    }
+}
+
+@media(max-width:1020px) {
+    #quem-somos {
+        padding: 4rem;
+        line-height: 2rem;
+    }
+
+    #quem-somos > #quemsomos-texto h1, p {
+        line-height: 2.5rem;
+    }
+}
+
+@media(max-width:1195px) {
+    #quem-somos {
+        padding: 5rem;
+    }
+
+    #quemsomos-img {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media(max-width:850px) {
+    #quem-somos {
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-quemsomos {
+        margin: 7rem auto auto auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-maxsuel-quadrado {
+        display: block;
+        height: 50%;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 1rem;
+        margin-top: -4rem;
+    }
+
+    .img-maxsuel-laakes {
+        display: none;
+    }
+}
+
+@media(max-width:440px) {
+    #quemsomos-img img {
+        border-radius: 1.5rem;
+    }
+}
+
+@media(max-width:425px) {
+    #quem-somos {
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+  
+    #quem-somos > #quemsomos-texto h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media(max-width:350px) {
+    #quem-somos {
+        padding: 1.5rem;
+        margin-top: 4rem;
+    }
+  
+    #quem-somos > #quemsomos-texto h1 {
+        font-size: 2.4rem;
+    }
+}
+
+/* FIM */
