@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br" translate="yes">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/contato.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Confira os melhores sapatos masculinos e femininos do Brasil com ótimo custo benefício. Conheça a Laake's...">
+    <meta name="keywords" content="sapatos, calçados, laake's, owntrafford, bluemax, sapypin, socialmax, classicten, saltalt, whyblu, calçados masculinos, calçados femininos">
+    <meta name="rating" content="general">
+    <meta http-equiv="content-language" content="pt-br, en-US">
+    <meta name="author" content="Maxsuel Aparecido Lima Santos">
+    <meta name="copyright" content="&copy; 2021 Laake's.">
+    <title>Laake's | Contato</title>
+</head>
+<body>
+    
+    <!-- Cabeçalho -->
+    <header id="topo">
+        <section class="logo-menu">
+            <section class="logo">
+                <h1>
+                    <a href="index.html" rel="author" target="_self" title="Laake's | A loja nº 1 de calçados brasileiros"><img src="imagens/logo-laake's-sem-fundo.png" alt="Logo da Laake's"></a> <span class="text-h1">Laake's</span> 
+                </h1>
+            </section>
+            <!-- Navegação -->
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html" target="_self" rel="author" class="item-menu">Home</a></li>
+                    <li><a href="feminino.html" target="_self" rel="author" class="item-menu">Feminino</a></li>
+                    <li><a href="masculino.html" target="_self" rel="author" class="item-menu">Masculino</a></li>
+                    <li><a href="quemsomos.html" target="_self" rel="author" class="item-menu">Quem somos</a></li>
+                    <li><a href="contato.html" target="_self" rel="author" class="contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <!-- Menu ícone -->
+
+            <section id="menu-icone" onclick="checked()">
+                <img src="imagens/menu-botao.png" alt="Menu" class="img-btn">
+            </section>
+
+        </section>
+    </header>
+    
+    <section id="menu-responsivo">
+        <ul>
+            <li><a href="index.html" target="_self" rel="author" class="atual-menu-responsivo">Home</a></li>
+            <li><a href="feminino.html" target="_self" rel="author" class="item-menu">Feminino</a></li>
+            <li><a href="masculino.html" target="_self" rel="author" class="item-menu">Masculino</a></li>
+            <li><a href="quemsomos.html" target="_self" rel="author" class="item-menu">Quem somos</a></li>
+            <li><a href="contato.html" target="_self" rel="author" class="item-menu">Contato</a></li>
+        </ul>
+    </section>
+
+    <!-- Script de responsividade -->
+    <script>
+        let menuresponsivo = document.getElementById('menu-responsivo');
+        let menuicone = document.getElementById('menu-icone');
+        let menuiconeimg = document.createElement('img');
+        function checked() {
+            menuresponsivo.style.display = 'block';
+            menuiconeimg.appendChild(texto);
+        }
+    </script>
+
+    <!-- Voltar ao topo -->
+    <a href="#topo" id="voltar-ao-topo"><img src="imagens/voltar-ao-topo.png" alt="Voltar ao topo"></a>
+
+    <!-- Formulário de contato -->
+    <main id="principal">
+        <form method="post" id="fContato" action="mailto:maxsuel.ap.l.santos@gmail.com">
+            <fieldset id="usuario">
+                <legend>Identificação do usuário</legend>
+                <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" size="25" maxlength="50" placeholder="Nome completo"/></p>
+                <p><label for="cSenha">Senha:</label> <input type="password" name="tSenha" id="cSenha" size="11" maxlength="9" placeholder="Até 9 dígitos"/></p>
+                <p><label for="cMail">E-mail:</label> <input type="email" name="tMail" id="cMail" size="25" maxlength="45" placeholder="Seu e-mail mais acessível"/></p>
+                
+                <fieldset id="sexo"><legend>Sexo:</legend>
+                    <input type="radio" name="tSexo" id="cMasc"/><label for="cMasc">&nbsp;&nbsp;Masculino</label><br>
+                    <input type="radio" name="tSexo" id="cFem"/><label for="cFem">&nbsp;&nbsp;Feminino</label><br>
+                    <input type="radio" name="tSexo" id="cOutro"/><label for="cOutro">&nbsp;&nbsp;Outro</label>
+                </fieldset>
+
+                <p>Data de nascimento: <input  type="date" name="tNasc" id="cNasc"/></p>
+            </fieldset>
+
+            <fieldset id="endereco">
+                <legend>Endereço do usuário:</legend>
+                <p><label for="cRua">Logardouro:</label> <input type="text" name="tRua" id="cRua" size="25" maxlength="80" placeholder="Rua, Av, Trav... "/></p>
+                <p><label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999"/></p>
+                <p style="margin-top: .7rem; margin-bottom: .7rem;"><label for="cEst">Estado:</label><select name="tEst" id="cEst">
+
+                        <optgroup label="Região Norte">
+                            <option>Amazonas</option>
+                            <option>Roraima</option>
+                            <option>Amapá</option>
+                            <option>Pará</option>
+                            <option>Tocantins</option>
+                            <option>Rondônia</option>
+                            <option>Acre</option>
+                        </optgroup>
+                        <optgroup label="Região Nordeste">
+                            <option selected>Bahia</option>
+                            <option>Sergipe</option>
+                            <option>Alagoas</option>
+                            <option>Pernambuco</option>
+                            <option>Paraíba</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Ceará</option>
+                            <option>Piauí</option>
+                            <option>Maranhão</option>
+                        </optgroup>
+                        <optgroup label="Região Sudeste">
+                            <option>São Paulo</option>
+                            <option>Minas Gerais</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Espírito Santo</option>
+                        </optgroup>
+                        <optgroup label="Região Centro Oeste">
+                            <option>Goiás</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                        </optgroup>
+                        <optgroup label="Região Sul">
+                            <option>Paraná</option>
+                            <option>Santa Catarina</option>
+                            <option>Rio Grande do Sul</option>
+                        </optgroup>
+
+                    </select></p>
+
+                    <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"/></p>
+
+                        <datalist id="cidades">
+                            <option value="Salvador"></option>
+                            <option value="Vitória da Conquista"></option>
+                            <option value="Feira de Santana"></option>
+                            <option value="Brumado"></option>
+                            <option value="Dom Basílio"></option>
+                            <option value="Livramento de Nossa Senhora"></option>
+                        </datalist>
+
+            </fieldset>
+            <fieldset id="mensagem">
+                <legend>Mensagem do usuário</legend>
+                    <p><label for="cUrg">Grau de urgência:</label> Min<input type="range" name="tUrg" id="cUrg" min="0" max="100" step="1">Max</p>
+                    <p style="margin-top: 2rem;"><label for="cMsg"></label><textarea name="tMsg" id="cMsg" cols="20" rows="5" placeholder="Sua mensagem"></textarea></p>
+            </fieldset>
+
+            <article id="btn-enviar">
+                <input type="submit" id="enviar"></input>
+            </article>
+            </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="rodape">
+        <p>&copy; 2021 <span class="laakes-rodape">Laake’s</span>. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+<!-- FIM -->

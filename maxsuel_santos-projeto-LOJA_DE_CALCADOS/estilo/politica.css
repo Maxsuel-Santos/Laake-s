@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#principal > #politica-privacidade h2, h3, p {
+    font-family: 'Heebo';
+    text-transform: none;
+    line-height: 3.3rem;
+}
+
+#politica-privacidade h2 {
+    font-size: 1.9rem;
+    color: var(--cor_azul_escuro);
+}
+
+#politica-privacidade h3 {
+    color: #060d41; 
+    font-size: 1.8rem;   
+}
+
+#politica-privacidade a {
+    text-decoration: none;
+    text-transform: none;
+    color: #2031b4;
+    font-weight: bold;
+}
+
+#politica-privacidade p {
+    font-size: 1.7rem;
+}
+
+#politica-privacidade {
+    padding: 20rem;
+}
+
+#voltar-home {
+    background-color: #060d41;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 10rem;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#voltar-home:hover {
+    background-color: #2031b4;
+    cursor: pointer;
+    transition: .6s;
+}
+
+/* Responsividade da página politica.html */
+
+/* Responsividade do texto de política de privacidade */
+
+@media(max-width:780px) {
+    #politica-privacidade {
+        padding: 10rem;
+    }
+}
+
+@media(max-width:570px) {
+    #politica-privacidade {
+        padding: 5rem;
+    }
+}
+
+/* FIM */
