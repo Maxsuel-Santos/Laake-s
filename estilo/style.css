@@ -184,7 +184,8 @@ img {
     background-color: #2840f5;
     bottom: 0;
     z-index: 1;
-    width: 100%;
+    width: 99.99%;
+    margin: auto;
 }
 
 #cookies > p {
