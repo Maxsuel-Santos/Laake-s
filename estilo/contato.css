@@ -37,6 +37,9 @@ input {
     margin-bottom: 1rem;
     margin-left: .5rem;
     margin-top: .5rem;
+    padding: .3rem;
+    caret-color: #00f;
+    cursor: text;
 }
 
 form legend {
