@@ -125,7 +125,7 @@ fieldset#pedido{
 
 /* Responsividade do contato */
 
-@media(max-width:570px) {
+@media only screen and (max-width:570px) {
     form{
         width: 45rem;
     }
@@ -138,7 +138,7 @@ fieldset#pedido{
     }
 }
 
-@media(max-width:480px) {
+@media only screen and (max-width:480px) {
     form{
         width: 38rem;
     }
@@ -151,7 +151,7 @@ fieldset#pedido{
     }
 }
 
-@media(max-width:400px) {
+@media only screen and (max-width:400px) {
     form{
         width: 31rem;
         margin: auto;
@@ -162,7 +162,7 @@ fieldset#pedido{
     }
 }
 
-@media(max-width:320px) {
+@media only screen and (max-width:320px) {
     form{
         width: 28rem;
         margin: auto;
