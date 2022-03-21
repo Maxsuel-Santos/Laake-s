@@ -72,7 +72,7 @@
 
 /* Responsividade de quem somos */
 
-@media(max-width:1195px) {
+@media only screen and (max-width:1195px) {
     #quem-somos {
         padding: 7rem;
     }
@@ -82,7 +82,7 @@
     }
 }
 
-@media(max-width:1195px) {
+@media only screen and (max-width:1195px) {
     #quem-somos {
         padding: 5rem;
     }
@@ -92,7 +92,7 @@
     }
 }
 
-@media(max-width:1020px) {
+@media only screen and (max-width:1020px) {
     #quem-somos {
         padding: 4rem;
         line-height: 2rem;
@@ -103,7 +103,7 @@
     }
 }
 
-@media(max-width:1195px) {
+@media only screen and (max-width:1195px) {
     #quem-somos {
         padding: 5rem;
     }
@@ -114,7 +114,7 @@
     }
 }
 
-@media(max-width:850px) {
+@media only screen and (max-width:850px) {
     #quem-somos {
         padding: 5rem;
         display: flex;
@@ -141,13 +141,13 @@
     }
 }
 
-@media(max-width:440px) {
+@media only screen and (max-width:440px) {
     #quemsomos-img img {
         border-radius: 1.5rem;
     }
 }
 
-@media(max-width:425px) {
+@media only screen and (max-width:425px) {
     #quem-somos {
         padding: 2rem;
         margin-top: 4rem;
@@ -158,7 +158,7 @@
     }
 }
 
-@media(max-width:350px) {
+@media only screen and (max-width:350px) {
     #quem-somos {
         padding: 1.5rem;
         margin-top: 4rem;
