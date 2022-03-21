@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (max-width:570px) {
+@media only screen and (max-width:570px) {
     #politica-privacidade {
         padding: 5rem;
     }
