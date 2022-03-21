@@ -306,6 +306,11 @@ main > section > article > h1, p {
 }
 
 .botao:hover {
+    transform: scale(105%);
+    transition: 2s;
+}
+
+.botao:hover {
     background-color: #a0684a;
     box-shadow: 4px 4px 0 var(--cor_branco_escuro);
     transition: .5s;
@@ -313,6 +318,19 @@ main > section > article > h1, p {
 
 .img-btn {
     vertical-align: middle; 
+}
+
+/* Animação do menu no celular */
+
+#menu-responsivo {
+    animation: fadeIn .5s linear;
+}
+
+@keyframes fadeIn {
+    from{ opacity: 0;
+    }
+    to{ opacity: 1; 
+    }
 }
 
 main > div.encontre-seu-estilo > h2 {
