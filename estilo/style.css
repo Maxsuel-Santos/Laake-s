@@ -29,6 +29,26 @@
     --cor-botao: #DD8C61;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor_azul_claro);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor_azul_escuro);
+}
+
 /* Menu logo */
 
 #menu-icone {
@@ -434,6 +454,11 @@ main > div.encontre-seu-estilo > h2 {
     font-size: 8.5rem;
 }
 
+.hh-p2:hover {
+    transform: scale(105%);
+    transition: 2s;
+}
+
 .hh-h3 {
     font-size: 3.3rem;
     line-height: 4.2rem;
@@ -501,6 +526,10 @@ main > div.encontre-seu-estilo > h2 {
     width: 65%;
     position: relative;
     left: 60px;
+}
+
+.btn-masc-femi:hover{
+    transform: scale(105%);
 }
 
 .femi {
