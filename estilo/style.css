@@ -664,7 +664,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade menu */
 
-@media(max-width:780px) {
+@media only screen and (max-width:780px) {
     #menu {
         display: none;
     }
@@ -680,7 +680,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade Owntrafford */
 
-@media(max-width: 1210px) {
+@media only screen and (max-width: 1210px) {
     #owntrafford {
         padding-bottom: 5.5rem;
     }
@@ -711,7 +711,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width: 1060px) {
+@media only screen and (max-width: 1060px) {
     #owntrafford {
         flex-direction: column;
     }
@@ -743,13 +743,13 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:940px) {
+@media only screen and (max-width:940px) {
     #owntrafford > .coluna2 > p {
         margin-bottom: 1.5rem;
     }
 }
 
-@media(max-width:450px) {
+@media only screen and (max-width:450px) {
     #owntrafford {
         flex-direction: column;
     }
@@ -784,7 +784,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade dos pordutos */
 
-@media(max-width:1140px) {
+@media only screen and (max-width:1140px) {
     #principal #produtos {
         display: grid;
         grid-template-areas: "area1 area2" 
@@ -796,7 +796,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:850px) {
+@media only screen and (max-width:850px) {
     #principal #produtos {
         display: grid;
         grid-template-areas: "area1" 
@@ -811,14 +811,14 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:560px) {
+@media only screen and (max-width:560px) {
     main > div.encontre-seu-estilo > h2 {        
         margin: 7rem 0;
         font-size: 2.9rem;
     }
 }
 
-@media(max-width:400px) {
+@media only screen and (max-width:400px) {
     main > div.encontre-seu-estilo > h2 {        
         font-size: 2.4rem;
     }
@@ -826,7 +826,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade Happy Hour */
 
-@media(max-width:1165px) {    
+@media only screen and (max-width:1165px) {    
     .off15 {
         position: relative;
         top: 50px;
@@ -847,7 +847,7 @@ main > div.encontre-seu-estilo > h2 {
     }    
 }
 
-@media(max-width:1102px) {    
+@media only screen and (max-width:1102px) {    
     .off15 {
         position: relative;
         top: 50px;
@@ -868,7 +868,7 @@ main > div.encontre-seu-estilo > h2 {
     }    
 }
 
-@media(max-width:850px) {
+@media only screen and (max-width:850px) {
     #happy-hour {
         display: flex;
         flex-direction: column;
@@ -906,7 +906,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:456px) {
+@media only screen and (max-width:456px) {
     #cookies {
         width: 99.5%;
         margin: auto;
@@ -948,7 +948,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade area masculino e feminino */
 
-@media(max-width:1211px) {           
+@media only screen and (max-width:1211px) {           
     .btn-masc-femi {
         padding: 1rem;
         display: inline-block;
@@ -958,7 +958,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:935px) {
+@media only screen and (max-width:935px) {
     #masc-femi {
         display: flex;
         flex-direction: column;
@@ -1006,7 +1006,7 @@ main > div.encontre-seu-estilo > h2 {
     }    
 }
 
-@media(max-width:500px) {
+@media only screen and (max-width:500px) {
     #masc-femi {
         padding: 4rem;
     }
@@ -1034,7 +1034,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:473px) {
+@media only screen and (max-width:473px) {
     .btn-masc-femi {
         font-size: 1.8rem;
         width: 45%;
@@ -1052,13 +1052,13 @@ main > div.encontre-seu-estilo > h2 {
     }    
 }
 
-@media(max-width:370px) {
+@media only screen and (max-width:370px) {
     .btn-masc-femi {
         font-size: 90%;
     }
 }
 
-@media(max-width:335px) {
+@media only screen and (max-width:335px) {
     .btn-masc-femi {
         font-size: 80%;
     }
@@ -1066,13 +1066,13 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade dos Depoimentos */
 
-@media(max-width:1236px) {
+@media only screen and (max-width:1236px) {
     #depoimentos {
         text-align: center;
     }
 }
 
-@media(max-width:430px) {
+@media only screen and (max-width:430px) {
     #depoimentos > .icone-depoimento > .img-depoimento {
         width: 90%;
         margin: auto;
@@ -1085,7 +1085,7 @@ main > div.encontre-seu-estilo > h2 {
 
 /* Responsividade dos Parceiros */
 
-@media(max-width:840px) {    
+@media only screen and (max-width:840px) {    
     #parceiros .h2-parceiros > p {
         padding-left: 4rem;
         text-align: center;
@@ -1119,7 +1119,7 @@ main > div.encontre-seu-estilo > h2 {
     }
 }
 
-@media(max-width:530px) {
+@media only screen and (max-width:530px) {
     #parceiros .h2-parceiros  p {
         font-size: 3.2rem;
         text-align: center;
