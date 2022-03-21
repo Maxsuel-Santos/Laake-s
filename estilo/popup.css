@@ -112,14 +112,14 @@ del {
 
 /* Responsividade do pop-up */
 
-@media(max-width:945px) {
+@media only screen and (max-width:945px) {
     .comprar-popup {
         font-size: 100%;
         width: 20%;
     }
 }
 
-@media(max-width:785px) {
+@media only screen and (max-width:785px) {
     .comprar-popup {
         font-size: 100%;
         width: 30%;
@@ -146,7 +146,7 @@ del {
     }
 }
 
-@media(max-width:725px) {
+@media only screen and (max-width:725px) {
     .comprar-popup {
         padding: 1.5rem;
         font-size: 100%;
@@ -155,7 +155,7 @@ del {
     }
 }
 
-@media(max-width:400px) {
+@media only screen and (max-width:400px) {
     #img-popup {
         margin: auto;
         width: 65%;
@@ -167,7 +167,7 @@ del {
     }
 }
 
-@media(max-width:345px) {
+@media only screen and (max-width:345px) {
     .comprar-popup {
         font-size: 100%;
         width: 35%;
