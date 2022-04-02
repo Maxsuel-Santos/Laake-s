@@ -95,7 +95,7 @@ header {
     position: relative;
 }
 
-.item-menu:before {
+.item-menu::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -110,7 +110,7 @@ header {
     transition: all 0.3s ease-in-out 0s;
 }
   
-.item-menu:hover:before {
+.item-menu:hover::before {
     visibility: visible;
     transform: scaleX(1);
     transform: scaleX(1);
@@ -202,6 +202,8 @@ img {
 /* Cookies */
 
 #cookies {
+    animation: input-animation .7s .5s ease-in-out forwards;
+    opacity: 0;
     position: fixed !important;
     background-color: #2840f5;
     bottom: 0;
@@ -246,13 +248,38 @@ img {
 /* main */
 
 #owntrafford {
+    animation: img-animation 30s ease-in-out infinite;
     max-height: 1000px;
     background-image: url('../imagens/background-neon-owntrafford.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     justify-content: space-around;
+}
+
+@keyframes img-animation {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@keyframes input-animation {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
 main > section > article > h1, p {
@@ -264,6 +291,7 @@ main > section > article > h1, p {
 .coluna1 {
     padding-top: 5rem;
     padding-right: -15%;
+    animation: input-animation .7s ease-in-out forwards;
 }
 
 .coluna1:hover{
@@ -279,16 +307,21 @@ main > section > article > h1, p {
 
 .coluna2 > h1 {
     font-size: 8rem;
+    animation: input-animation .7s ease-in-out forwards;
 }
 
 .coluna2 > a > p {
     font-size: 2.8rem;
+    padding: 1.5rem 0 1.5rem 0;
     color: #FFF;
+    opacity: 0;
+    animation: input-animation .7s 350ms ease-in-out forwards;
 }
 
 .coluna2 > p {
     font-size: 2.8rem;
     color: #FFF;
+    animation: input-animation .7s ease-in-out forwards;
 }
 
 .botao {
@@ -309,6 +342,7 @@ main > section > article > h1, p {
 .botao:hover {
     transform: scale(105%);
     transition: 2s;
+    opacity: 1;
 }
 
 .botao:hover {
@@ -328,9 +362,9 @@ main > section > article > h1, p {
 }
 
 @keyframes fadeIn {
-    from{ opacity: 0;
+    from { opacity: 0;
     }
-    to{ opacity: 1; 
+    to { opacity: 1; 
     }
 }
 
@@ -683,6 +717,7 @@ main > div.encontre-seu-estilo > h2 {
 @media only screen and (max-width: 1210px) {
     #owntrafford {
         padding-bottom: 5.5rem;
+        animation: img-animation 70s ease-in-out infinite;
     }
 
     #owntrafford > .coluna1{
