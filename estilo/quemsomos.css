@@ -134,6 +134,7 @@
         margin: auto;
         margin-bottom: 1rem;
         margin-top: -4rem;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
 
     .img-maxsuel-laakes {
