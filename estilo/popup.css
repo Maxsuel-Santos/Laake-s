@@ -30,6 +30,7 @@
     left: 0;
     right: 0;
     background-color: #000000ed;
+    z-index: 10000;
 }
 
 #fechar-popup {
@@ -40,6 +41,7 @@
 
 #fechar-popup:hover {
     cursor: pointer;
+    transform: scale(110%);
 }
 
 #popup-tudo {
@@ -55,6 +57,7 @@
 #img-popup > img:hover {
     transform: scale(130%);
     cursor: pointer;
+    transition: .6s;
 }
 
 #conteudo-popup .h2-p, .h3-p, .p-p {
