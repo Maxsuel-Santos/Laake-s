@@ -74,6 +74,7 @@ body {
 header {
     min-height: 7rem;
     background-color: var(--cor_branco);
+    position: sticky;
 }
 
 /* Menu */
