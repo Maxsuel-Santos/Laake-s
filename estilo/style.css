@@ -307,7 +307,7 @@ main > section > article > h1, p {
 
 .coluna2 > h1 {
     font-size: 8rem;
-    animation: input-animation .7s ease-in-out forwards;
+    /*animation: input-animation .7s ease-in-out forwards;*/
 }
 
 .coluna2 > a > p {
