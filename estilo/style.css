@@ -271,7 +271,7 @@ img {
     }
 }
 
-/*@keyframes input-animation {
+@keyframes input-animation {
     from {
         opacity: 0;
         transform: translateY(50px);
@@ -280,7 +280,7 @@ img {
         opacity: 1;
         transform: none;
     }
-}*/
+}
 
 main > section > article > h1, p {
     color: var(--cor_branco);
