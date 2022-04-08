@@ -31,6 +31,15 @@
     right: 0;
     background-color: #000000ed;
     z-index: 10000;
+    transform: translateX(-100%);
+    overflow: hidden;
+    animation: popup .8s 7s ease-in-out forwards;
+}
+
+@keyframes popup {
+    to {
+        transform: translateX(0%);
+    }
 }
 
 #fechar-popup {
