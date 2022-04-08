@@ -192,7 +192,7 @@ img {
     position: fixed;
     right: 3rem;
     bottom: 3rem;
-    z-index: 1;
+    z-index: 100;
 }
 
 #voltar-ao-topo:hover {
@@ -202,7 +202,7 @@ img {
 /* Cookies */
 
 #cookies {
-    animation: input-animation .7s .5s ease-in-out forwards;
+    animation: input-animation .7s 5s ease-in-out forwards;
     opacity: 0;
     position: fixed !important;
     background-color: #2840f5;
@@ -291,7 +291,7 @@ main > section > article > h1, p {
 .coluna1 {
     padding-top: 5rem;
     padding-right: -15%;
-    animation: input-animation .7s ease-in-out forwards;
+    /*animation: input-animation .7s ease-in-out forwards;*/
 }
 
 .coluna1:hover{
@@ -307,21 +307,21 @@ main > section > article > h1, p {
 
 .coluna2 > h1 {
     font-size: 8rem;
-    animation: input-animation .7s ease-in-out forwards;
+    /*animation: input-animation .7s ease-in-out forwards;*/
 }
 
 .coluna2 > a > p {
     font-size: 2.8rem;
     padding: 1.5rem 0 1.5rem 0;
     color: #FFF;
-    opacity: 0;
-    animation: input-animation .7s 350ms ease-in-out forwards;
+    /*opacity: 0;*/
+    /*animation: input-animation .7s 350ms ease-in-out forwards;*/
 }
 
 .coluna2 > p {
     font-size: 2.8rem;
     color: #FFF;
-    animation: input-animation .7s ease-in-out forwards;
+    /*animation: input-animation .7s ease-in-out forwards;*/
 }
 
 .botao {
