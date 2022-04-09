@@ -103,6 +103,10 @@ fieldset#pedido{
     text-align: center;
 }
 
+#mensagem textarea{
+    resize: none;
+}
+
 #enviar {
     font-size: 1.8rem;
     font-family: 'Heebo';
