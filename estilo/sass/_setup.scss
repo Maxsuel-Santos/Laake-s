@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Josefin';
+    src: url(../fontes/static-josefin/JosefinSans-Regular.ttf) format('truetype'), url(../fontes/static-josefin/JosefinSans-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(../fontes/static-heebo/Heebo-Regular.ttf) format('truetype'), url(../fontes/static-heebo/Heebo-SemiBold.ttf) format('truetype');
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --cor_branco: #FFFFFF;
+    --cor_preto: #000000;
+    --cor_azul_escuro: #0F1757;
+    --cor_azul_claro: #2133C2;
+    --cor_vermelho_escuro: #700D0B;
+    --cor_bege: #D8BC61;
+    --cor_branco_escuro: #E3E3E3;
+    --cor_branco_escuro2: #DEDEDE;
+    --cor_branco_escuro3: #C4C4C4;
+    --cor-botao: #DD8C61;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor_azul_claro);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--cor_azul_escuro);
+}
+
+/* Menu logo */
+
+#menu-icone {
+    display: none;
+}
+
+#menu-icone-fechar {
+    display: none;
+}
+
+/* index.html   masculino.html  feminino.html */
+
+html {
+    font-size: 62.5%; /* 10px */
+    max-width: 100%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    min-height: 7rem;
+    background-color: var(--cor_branco);
+}
