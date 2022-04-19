@@ -70,10 +70,29 @@
 
     <!-- Script -->
     <script>
-        let cookies = document.getElementById('cookies');
+        // Script do Popup
+
+        let popup = document.getElementById('popup');
         function clicar() {
-            cookies.style.display = 'none';
+            popup.style.display = 'none';
         }
+
+        // Script de Responsividade do Menu 
+
+        let menuresponsivo = document.getElementById('menu-responsivo');
+        let menuicone = document.getElementById('menu-icone');
+
+        function checked() {
+            menuresponsivo.style.display = 'block';
+            menuicone.style.display = 'block';
+        }
+
+        // Script dos Cookies
+
+        let cookies = document.getElementById('cookies');
+            function clicar() {
+                cookies.style.display = 'none';
+            }
     </script>
 
     <!-- Conteúdo principal -->
@@ -263,9 +282,6 @@
         <p>&copy; 2021 <span class="laakes-rodape">Laake’s</span>. Todos os direitos reservados.</p>
     </footer>
 
-    <!-- Script JS -->
-
-    <script src="js/app.js"></script>
 </body>
 </html>
 
