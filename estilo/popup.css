@@ -132,6 +132,10 @@ del {
 }
 
 @media only screen and (max-width:785px) {
+    #popup-tudo {
+        margin-top: 7rem;
+    }
+
     .comprar-popup {
         font-size: 100%;
         width: 30%;
