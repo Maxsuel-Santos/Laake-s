@@ -771,6 +771,8 @@ main > div.encontre-seu-estilo > h2 {
 @media only screen and (max-width: 1210px) {
   #owntrafford {
     padding-bottom: 5.5rem;
+    -webkit-animation: imgAnimation 30s ease-in-out infinite;
+            animation: imgAnimation 30s ease-in-out infinite;
   }
   #owntrafford > .coluna1 {
     width: 40%;
