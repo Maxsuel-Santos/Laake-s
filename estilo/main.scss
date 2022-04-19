@@ -6,8 +6,7 @@
 @import "sass/cookies";
 /**/
 @import "sass/animations";
-/**/
-@import "sass/responsivity";
+
 
 
 /* Voltar ao topo */
@@ -450,4 +449,5 @@ main > div.encontre-seu-estilo > h2 {
     transition: .6s;
 }
 
-
+/**/
+@import "sass/responsivity";
