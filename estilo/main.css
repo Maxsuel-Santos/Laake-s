@@ -383,8 +383,7 @@ main > div.encontre-seu-estilo > h2 {
 #produtos {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "area1 area2 area3" 
- "area4 area5 area6";
+      grid-template-areas: "area1 area2 area3"  "area4 area5 area6";
   margin: 9rem;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -872,9 +871,7 @@ main > div.encontre-seu-estilo > h2 {
   #principal #produtos {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "area1 area2" 
- "area3 area4" 
- "area5 area6";
+        grid-template-areas: "area1 area2"  "area3 area4"  "area5 area6";
     margin: 9rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -886,12 +883,7 @@ main > div.encontre-seu-estilo > h2 {
   #principal #produtos {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "area1" 
- "area2" 
- "area3" 
- "area4" 
- "area5" 
- "area6";
+        grid-template-areas: "area1"  "area2"  "area3"  "area4"  "area5"  "area6";
     margin: 9rem;
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -1181,8 +1173,7 @@ main > div.encontre-seu-estilo > h2 {
   .imagens-parceiros {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "marvel nike" 
- "adidas google";
+        grid-template-areas: "marvel nike"  "adidas google";
   }
   #parceiros > .imagens-parceiros > a img {
     margin-bottom: 4rem;
@@ -1284,4 +1275,6 @@ main > div.encontre-seu-estilo > h2 {
     opacity: 1;
   }
 }
+
+/**/
 /*# sourceMappingURL=main.css.map */
