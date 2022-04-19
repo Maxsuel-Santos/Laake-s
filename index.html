@@ -59,13 +59,22 @@
     <!-- Cookies -->
     <section id="cookies">
         <p>A Laake's utiliza cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços, personalizar publicidade e recomendar conteúdo de seu interesse. Ao utilizar nossos serviços, você concorda com tal monitoramento. Com esta autorização estamos aptos para coletar tais informações e utilizá-las para tais finalidades. Você pode consultar nossa política de privacidade e política de cookies.</p>
+        
         <article id="cookies-dados">
-            <p class="ok" onclick="clicar()">Ok</p>
+            <p class="ok" onclick="clicar();">Ok</p>
             <a href="politica.html" rel="author" target="_blank">
                 <p class="veja-mais">Veja mais</p>
             </a>
         </article><br>
     </section>
+
+    <!-- Script -->
+    <script>
+        let cookies = document.getElementById('cookies');
+        function clicar() {
+            cookies.style.display = 'none';
+        }
+    </script>
 
     <!-- Conteúdo principal -->
     <main id="principal">
@@ -256,7 +265,7 @@
 
     <!-- Script JS -->
 
-    <script src="script/js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
 

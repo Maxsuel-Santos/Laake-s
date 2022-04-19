@@ -1,0 +1,45 @@
+/* Cookies */
+
+#cookies {
+    animation: inputAnimation .7s 5s ease-in-out forwards;
+    opacity: 0;
+    position: fixed !important;
+    background-color: #2840f5;
+    bottom: 0;
+    z-index: 1;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#cookies > p {
+    padding: 1.5rem;
+    font-size: 1.399999rem;
+    color: #fff;
+    line-height: 1.6rem;
+    text-align: center;
+    text-transform: none;
+}
+
+#cookies-dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ok, .veja-mais {
+    line-height: normal;
+    color: #fff;
+    padding: .7rem;
+    background-color: #1a90b4;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    box-shadow: 2px 2px 0 #fff;
+}
+
+.ok:hover, .veja-mais:hover {
+    cursor: pointer;
+    background-color: #146f8b;
+    box-shadow: 2px 2px 0 #bebebe;
+    transition: .5s;
+}

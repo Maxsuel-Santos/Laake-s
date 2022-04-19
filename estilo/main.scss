@@ -5,6 +5,10 @@
 /**/
 @import "sass/responsivity";
 /**/
+@import "sass/cookies";
+/**/
+@import "sass/animations";
+
 
 /* Voltar ao topo */
 
@@ -19,51 +23,7 @@
     transform: scale(103%);
 }
 
-/* Cookies */
 
-#cookies {
-    animation: inputAnimation .7s 5s ease-in-out forwards;
-    opacity: 0;
-    position: fixed !important;
-    background-color: #2840f5;
-    bottom: 0;
-    z-index: 1;
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-#cookies > p {
-    padding: 1.5rem;
-    font-size: 1.399999rem;
-    color: #fff;
-    line-height: 1.6rem;
-    text-align: center;
-    text-transform: none;
-}
-
-#cookies-dados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ok, .veja-mais {
-    line-height: normal;
-    color: #fff;
-    padding: .7rem;
-    background-color: #1a90b4;
-    margin-right: .5rem;
-    margin-left: .5rem;
-    box-shadow: 2px 2px 0 #fff;
-}
-
-.ok:hover, .veja-mais:hover {
-    cursor: pointer;
-    background-color: #146f8b;
-    box-shadow: 2px 2px 0 #bebebe;
-    transition: .5s;
-}
 
 /* main */
 
@@ -79,28 +39,7 @@
     justify-content: space-around;
 }
 
-@keyframes imgAnimation {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
-}
 
-@keyframes inputAnimation {
-    from {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
 
 main > section > article > h1, p {
     color: var(--cor_branco);
@@ -181,12 +120,7 @@ main > section > article > h1, p {
     animation: fadeIn .5s linear;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0;
-    }
-    to { opacity: 1; 
-    }
-}
+
 
 main > div.encontre-seu-estilo > h2 {
     font-family: 'Josefin';

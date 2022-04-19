@@ -656,19 +656,6 @@ img {
 }
 
 /**/
-/* Voltar ao topo */
-#voltar-ao-topo {
-  position: fixed;
-  right: 3rem;
-  bottom: 3rem;
-  z-index: 100;
-}
-
-#voltar-ao-topo:hover {
-  -webkit-transform: scale(103%);
-          transform: scale(103%);
-}
-
 /* Cookies */
 #cookies {
   -webkit-animation: inputAnimation .7s 5s ease-in-out forwards;
@@ -724,23 +711,7 @@ img {
   transition: .5s;
 }
 
-/* main */
-#owntrafford {
-  -webkit-animation: imgAnimation 30s ease-in-out infinite;
-          animation: imgAnimation 30s ease-in-out infinite;
-  max-height: 1000px;
-  background-image: url("../imagens/background-neon-owntrafford.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
+/**/
 @-webkit-keyframes imgAnimation {
   0% {
     background-position: 0 50%;
@@ -752,7 +723,6 @@ img {
     background-position: 0 50%;
   }
 }
-
 @keyframes imgAnimation {
   0% {
     background-position: 0 50%;
@@ -789,6 +759,54 @@ img {
     -webkit-transform: none;
             transform: none;
   }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Voltar ao topo */
+#voltar-ao-topo {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  z-index: 100;
+}
+
+#voltar-ao-topo:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
+/* main */
+#owntrafford {
+  -webkit-animation: imgAnimation 30s ease-in-out infinite;
+          animation: imgAnimation 30s ease-in-out infinite;
+  max-height: 1000px;
+  background-image: url("../imagens/background-neon-owntrafford.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 main > section > article > h1, p {
@@ -875,24 +893,6 @@ main > section > article > h1, p {
 #menu-responsivo {
   -webkit-animation: fadeIn .5s linear;
           animation: fadeIn .5s linear;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 main > div.encontre-seu-estilo > h2 {
