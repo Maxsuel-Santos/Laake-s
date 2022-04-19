@@ -1,0 +1,12 @@
+/* Voltar ao topo */
+
+#voltar-ao-topo {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: 100;
+}
+
+#voltar-ao-topo:hover {
+    transform: scale(103%);
+}

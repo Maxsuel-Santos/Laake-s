@@ -322,6 +322,7 @@ img {
   }
 }
 
+/**/
 /* Voltar ao topo */
 #voltar-ao-topo {
   position: fixed;
@@ -335,6 +336,7 @@ img {
           transform: scale(103%);
 }
 
+/**/
 /* main */
 #owntrafford {
   -webkit-animation: imgAnimation 30s ease-in-out infinite;
@@ -796,6 +798,7 @@ main > div.encontre-seu-estilo > h2 {
   cursor: pointer;
 }
 
+/**/
 /* Rodapé */
 #rodape {
   background-color: var(--cor_azul_escuro);
@@ -1274,4 +1277,6 @@ main > div.encontre-seu-estilo > h2 {
     margin-bottom: 6rem;
   }
 }
+
+/**/
 /*# sourceMappingURL=main.css.map */
