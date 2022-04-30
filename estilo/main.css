@@ -372,6 +372,7 @@ main > section > article > h1, p {
           animation: fadeIn .5s linear;
 }
 
+/* PRODUTOS */
 main > div.encontre-seu-estilo > h2 {
   font-family: 'Josefin';
   text-align: center;
@@ -469,7 +470,7 @@ main > div.encontre-seu-estilo > h2 {
 }
 
 .produto:hover {
-  border: .2rem solid #000;
+  outline: .2rem solid #000;
   cursor: pointer;
   -webkit-transition: .1s;
   transition: .1s;
@@ -483,6 +484,7 @@ main > div.encontre-seu-estilo > h2 {
   padding: 1.8rem;
 }
 
+/* HAPPY HOUR */
 #happy-hour {
   max-height: 1000px;
   min-height: 550px;

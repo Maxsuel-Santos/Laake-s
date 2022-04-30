@@ -93,7 +93,7 @@ main > section > article > h1, p {
     animation: fadeIn .5s linear;
 }
 
-
+/* PRODUTOS */
 
 main > div.encontre-seu-estilo > h2 {
     font-family: 'Josefin';
@@ -179,7 +179,7 @@ main > div.encontre-seu-estilo > h2 {
 }
 
 .produto:hover {
-    border: .2rem solid #000;
+    outline: .2rem solid #000;
     cursor: pointer;
     transition: .1s;
 }
@@ -191,6 +191,8 @@ main > div.encontre-seu-estilo > h2 {
 .sapato1, .sapato2, .sapato3, .sapato4, .sapato5, .sapato6 {
     padding: 1.8rem;
 }
+
+/* HAPPY HOUR */
 
 #happy-hour {
     max-height: 1000px;
