@@ -3,19 +3,25 @@
 #rodape {
     background-color: var(--cor_azul_escuro);
     min-height: 7rem;
-}
+    max-height: 10rem;
 
-#rodape p {
-    text-transform: none;
-    color: #fff;
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 2.9rem;
-}
+    p {
+        text-transform: none;
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 2.9rem;
 
-.laakes-rodape:hover {
-    cursor: pointer;
-    color: #f80;
-    border-bottom: .1rem solid #fff;
-    transition: .6s;
+        .laakes-rodape:hover {
+            cursor: pointer;
+            color: #f80;
+            border-bottom: .1rem solid #fff;
+            transition: .6s;
+        }
+    }
+
+    .cnpj {
+        font-size: 1.2rem;
+        padding: 1.5rem 0 2rem 0;
+    }
 }
