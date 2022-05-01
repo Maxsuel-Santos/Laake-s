@@ -1,12 +1,13 @@
 /* Voltar ao topo */
 
 #voltar-ao-topo {
+    animation: backTop 1s 10s ease-in-out forwards;
     position: fixed;
     right: 3rem;
     bottom: 3rem;
-    z-index: 100;
-}
-
-#voltar-ao-topo:hover {
-    transform: scale(103%);
+    z-index: 1000;
+    opacity: 0;
+    :hover {
+        transform: scale(103%);
+    }
 }
