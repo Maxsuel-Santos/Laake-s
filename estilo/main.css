@@ -410,6 +410,13 @@ main > div.encontre-seu-estilo > h2 {
   font-family: 'Josefin';
 }
 
+#produtos > a > section,
+#produtos > a > section > article {
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 5px #0f175754, inset 1px 1px 3px #0f17572a, inset -1px -1px 3px #0f17572a;
+          box-shadow: 1px 1px 5px #0f175754, inset 1px 1px 3px #0f17572a, inset -1px -1px 3px #0f17572a;
+}
+
 .area1 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -487,6 +494,15 @@ main > div.encontre-seu-estilo > h2 {
 
 .img-produto {
   text-align: center;
+  -webkit-transform: scale(90%);
+          transform: scale(90%);
+}
+
+.img-produto:hover {
+  -webkit-transform: scale(80%);
+          transform: scale(80%);
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .sapato1, .sapato2, .sapato3, .sapato4, .sapato5, .sapato6 {
