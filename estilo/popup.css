@@ -160,6 +160,10 @@ del {
         width: 30%;
     }
 
+    #img-popup > img:hover {
+        transform: none;
+    }
+
     #conteudo-popup > .h2-p {
         font-size: 4rem;
         color: var(--cor-botao);
@@ -197,7 +201,7 @@ del {
         padding-top: 5rem;
     }
 
-    #img-popup:hover {
+    #img-popup > img:hover {
         transform: none;
     }
 }

@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+:root {
+    --darkBlue: #060d41;
+    --lightBlue: #2031b4;
+}
+
 #principal > #politica-privacidade h2, h3, p {
     font-family: 'Heebo';
     text-transform: none;
@@ -12,14 +17,14 @@
 }
 
 #politica-privacidade h3 {
-    color: #060d41; 
+    color: var(--darkBlue); 
     font-size: 1.8rem;   
 }
 
 #politica-privacidade a {
     text-decoration: none;
     text-transform: none;
-    color: #2031b4;
+    color: var(--lightBlue);
     font-weight: bold;
 }
 
@@ -32,7 +37,7 @@
 }
 
 #voltar-home {
-    background-color: #060d41;
+    background-color: var(--darkBlue);
     color: #fff;
     padding: 1.5rem;
     border-radius: 10rem;
@@ -42,7 +47,7 @@
 }
 
 #voltar-home:hover {
-    background-color: #2031b4;
+    background-color: var(--lightBlue);
     cursor: pointer;
     transition: .6s;
 }
@@ -54,6 +59,10 @@
 @media only screen and (max-width:780px) {
     #politica-privacidade {
         padding: 10rem;
+    }
+
+    #voltar-home {
+        width: 40%;
     }
 }
 
