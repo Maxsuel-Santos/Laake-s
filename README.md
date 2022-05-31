@@ -3,7 +3,7 @@ A loja nº 1 de calçados brasileiros.
 
 ## Preview
 
-![Preview](imagens/Laake's%20-%20Desktop.png)
+![Preview](imagens/previewLaakes.png)
 
 ## Site
 
