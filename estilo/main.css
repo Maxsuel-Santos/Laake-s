@@ -761,8 +761,7 @@ main > div.encontre-seu-estilo > h2 {
 /* Rodapé */
 #rodape {
   background-color: var(--cor_azul_escuro);
-  min-height: 7rem;
-  max-height: 10rem;
+  min-height: 5rem;
 }
 
 #rodape p {
