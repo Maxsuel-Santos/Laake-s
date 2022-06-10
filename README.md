@@ -14,3 +14,4 @@ A loja nº 1 de calçados brasileiros.
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/raw/main/_GitHub/img/css-icon.svg)
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/raw/main/_GitHub/img/sass-icon.svg)
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/raw/main/_GitHub/img/javascript-icon.svg)
+![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/raw/main/_GitHub/img/figma-icon.svg)
